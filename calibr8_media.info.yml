@@ -1,7 +1,9 @@
-name: 'Calibr8 Media'
+name: Calibr8 Media
+description: Feature enabling a default media setup.
+package: Calibr8
 type: module
 core: 8.x
-description: Feature enabling a default media setup.
+version: '8.x-1.0'
 dependencies:
   - crop
   - entity_browser
