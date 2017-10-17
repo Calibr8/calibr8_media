@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "drupal/crop": "^2.x",
-        "drupal/image_widget_crop": "^2.x"
+        "drupal/crop": "2.x",
+        "drupal/image_widget_crop": "^2.0"
     }
 }
