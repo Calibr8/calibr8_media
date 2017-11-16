@@ -1,0 +1,38 @@
+uuid: 7c402fe1-fba1-4ec8-9de2-23123de4524b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.thumbnail
+    - field.field.media.image.field_media_image
+    - image.style.1_1_150x150
+    - media_entity.bundle.image
+  module:
+    - ds
+    - image
+id: media.image.thumbnail
+targetEntityType: media
+bundle: image
+mode: thumbnail
+content:
+  field_media_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: 1_1_150x150
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true
