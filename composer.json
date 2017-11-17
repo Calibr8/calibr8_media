@@ -27,7 +27,7 @@
         "installer-paths": {
             "web/libraries/{$name}": [
               "enyo/dropzone"
-            ],
+            ]
         },
         "patches": {
             "drupal/field_formatter": {
