@@ -14,6 +14,7 @@
         }
     ],
     "require": {
+        "composer/installers": "^1.4.0",
         "drupal/crop": "^1.0",
         "drupal/entity_browser": "^1.0",
         "drupal/media_entity": "^1.0",
