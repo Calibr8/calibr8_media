@@ -16,7 +16,7 @@ label: 'Upload or Existing'
 display: modal
 display_configuration:
   width: '800'
-  height: '650'
+  height: '600'
   link_text: Select
   auto_open: false
 selection_display: no_display
@@ -31,7 +31,7 @@ widgets:
       submit_text: Select
       auto_select: false
     uuid: b1fdcbce-6a37-43d7-aeba-a41ddbc1c599
-    weight: -8
+    weight: -10
     label: 'Browse images'
     id: view
   e416dc65-a00f-478a-bf29-aa86829ef13b:
@@ -50,6 +50,6 @@ widgets:
       submit_text: Select
       auto_select: false
     uuid: e416dc65-a00f-478a-bf29-aa86829ef13b
-    weight: -10
+    weight: -9
     label: Upload
     id: dropzonejs_media_entity
