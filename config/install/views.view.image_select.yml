@@ -11,6 +11,8 @@ dependencies:
     - image
     - media_entity
     - user
+_core:
+  default_config_hash: 1P-6OfAIFfXHPujozSQOAAAMvoWYtwRvT6_uzIDEgd0
 id: image_select
 label: 'Image select'
 module: views
@@ -73,7 +75,7 @@ display:
         type: grid
         options:
           grouping: {  }
-          columns: 4
+          columns: 5
           automatic_width: true
           alignment: horizontal
           col_class_default: true
@@ -228,7 +230,7 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 40
+            max_length: 15
             word_boundary: false
             ellipsis: true
             more_link: false

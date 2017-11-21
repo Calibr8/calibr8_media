@@ -11,13 +11,13 @@ dependencies:
     - views
 _core:
   default_config_hash: JDJh5LWEtUKkF1s9yQ4NEwdUbmaBj6Jxkx17zxZaHpU
-name: media
-label: Media
+name: upload_or_existing
+label: 'Upload or Existing'
 display: modal
 display_configuration:
-  width: ''
-  height: ''
-  link_text: 'Select image'
+  width: '800'
+  height: '650'
+  link_text: Select
   auto_open: false
 selection_display: no_display
 selection_display_configuration: {  }
@@ -32,24 +32,24 @@ widgets:
       auto_select: false
     uuid: b1fdcbce-6a37-43d7-aeba-a41ddbc1c599
     weight: -8
-    label: 'Use existing image'
+    label: 'Browse images'
     id: view
   e416dc65-a00f-478a-bf29-aa86829ef13b:
     settings:
       media_entity_bundle: image
       upload_location: 'public://[date:custom:Y]-[date:custom:m]'
-      dropzone_description: 'Drop files here to upload them'
+      dropzone_description: 'Drop images here to upload them'
       max_filesize: 256M
-      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      extensions: 'jpg jpeg gif png'
       clientside_resize: false
       resize_width: null
       resize_height: null
       resize_quality: !!float 1
       resize_method: contain
       thumbnail_method: contain
-      submit_text: 'Select files'
+      submit_text: Select
       auto_select: false
     uuid: e416dc65-a00f-478a-bf29-aa86829ef13b
     weight: -10
-    label: 'Upload images'
+    label: Upload
     id: dropzonejs_media_entity
