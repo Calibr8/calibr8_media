@@ -14,3 +14,4 @@ dependencies:
   - image_widget_crop
   - field_formatter
   - entity_browser
+  - dropzonejs_eb_widget
