@@ -15,7 +15,7 @@
     ],
     "require": {
         "drupal/drupal-library-installer-plugin": "^0.3.0",
-        "drupal/crop": "^2.0",
+        "drupal/crop": "2.0-rc1",
         "drupal/entity_browser": "^2.0",
         "drupal/media_entity": "^2.0",
         "drupal/media_entity_image": "^1.0",
