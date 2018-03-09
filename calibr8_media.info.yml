@@ -9,7 +9,6 @@ dependencies:
   - file
   - image
   - responsive_image
-  - media_entity
   - media_entity_image
   - image_widget_crop
   - field_formatter
