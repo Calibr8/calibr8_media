@@ -15,12 +15,10 @@
     ],
     "require": {
         "drupal/drupal-library-installer-plugin": "^0.3.0",
-        "drupal/entity_browser": "2.0.0-alpha2",
-        "drupal/media_entity": "2.0.0-beta1",
-        "drupal/media_entity_image": "^1.0",
+        "drupal/entity_browser": "^2.0.0-alpha1",
         "drupal/field_formatter": "^1.0",
         "drupal/image_widget_crop": "^2.0",
-        "drupal/dropzonejs": "2.0.0-alpha3",
+        "drupal/dropzonejs": "^2.0.0-alpha3",
         "enyo/dropzone": "^4.3.0",
         "drupal/media_entity_actions": "1.0-alpha2"
     },
