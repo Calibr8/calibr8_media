@@ -3,7 +3,7 @@ description: Feature enabling a default media setup.
 package: Calibr8
 type: module
 core: 8.x
-version: '8.x-5.0.3'
+version: '8.x-5.0.4'
 dependencies:
   - crop
   - file
