@@ -20,7 +20,7 @@
         "drupal/image_widget_crop": "^2.0",
         "drupal/dropzonejs": "^2.0.0-alpha3",
         "enyo/dropzone": "^4.3.0",
-        "drupal/media_entity_actions": "1.0-alpha2"
+        "drupal/media_entity_actions": "^1.0-alpha2"
     },
     "extra": {
         "patches": {
