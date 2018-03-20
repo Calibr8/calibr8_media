@@ -1,7 +1,8 @@
-uuid: 3095cd29-259a-4639-8305-e5d2809c6519
 langcode: en
 status: true
 dependencies:
+  config:
+    - crop.type.1_1_crop
   module:
     - crop
 name: 1_1_150x150
@@ -20,3 +21,4 @@ effects:
     data:
       width: 150
       height: 150
+pipeline: __default__

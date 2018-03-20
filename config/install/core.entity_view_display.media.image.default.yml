@@ -1,10 +1,9 @@
-uuid: 5b547c3e-f832-4282-a8bf-5b95b5344fd7
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - media_entity.bundle.image
+    - media.type.image
     - responsive_image.styles.content_2_1
   module:
     - ds

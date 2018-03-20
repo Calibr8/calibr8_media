@@ -1,16 +1,13 @@
-uuid: e34b43dd-c4ad-4e84-bd26-52076aab264a
 langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.image
+    - media.type.image
     - views.view.image_select
   module:
     - dropzonejs_eb_widget
-    - media_entity
+    - media
     - views
-_core:
-  default_config_hash: JDJh5LWEtUKkF1s9yQ4NEwdUbmaBj6Jxkx17zxZaHpU
 name: upload_or_existing
 label: 'Upload or Existing'
 display: modal
@@ -34,9 +31,10 @@ widgets:
     weight: -10
     label: 'Browse images'
     id: view
-  e416dc65-a00f-478a-bf29-aa86829ef13b:
+  e300fe21-017e-4655-b51a-6f2fc9ef0b02:
     settings:
-      media_entity_bundle: image
+      form_mode: default
+      media_type: image
       upload_location: 'public://[date:custom:Y]-[date:custom:m]'
       dropzone_description: 'Drop images here to upload them'
       max_filesize: 256M
@@ -48,8 +46,7 @@ widgets:
       resize_method: contain
       thumbnail_method: contain
       submit_text: Select
-      auto_select: false
-    uuid: e416dc65-a00f-478a-bf29-aa86829ef13b
-    weight: -9
+    uuid: e300fe21-017e-4655-b51a-6f2fc9ef0b02
+    weight: 3
     label: Upload
-    id: dropzonejs_media_entity
+    id: dropzonejs_media_entity_inline_entity_form

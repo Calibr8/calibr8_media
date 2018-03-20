@@ -1,7 +1,8 @@
-uuid: f23f8656-9e95-4d4d-87d9-f8815503368e
 langcode: nl
 status: true
 dependencies:
+  config:
+    - crop.type.3_1_crop
   module:
     - crop
 name: 3_1_1400x466
@@ -20,3 +21,4 @@ effects:
     data:
       width: 1400
       height: 466
+pipeline: __default__

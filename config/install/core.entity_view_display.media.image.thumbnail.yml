@@ -1,4 +1,3 @@
-uuid: 7c402fe1-fba1-4ec8-9de2-23123de4524b
 langcode: en
 status: true
 dependencies:
@@ -6,7 +5,7 @@ dependencies:
     - core.entity_view_mode.media.thumbnail
     - field.field.media.image.field_media_image
     - image.style.1_1_150x150
-    - media_entity.bundle.image
+    - media.type.image
   module:
     - ds
     - image

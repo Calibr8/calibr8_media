@@ -20,6 +20,7 @@
         "drupal/image_widget_crop": "^2.0",
         "drupal/dropzonejs": "^2.0@alpha",
         "enyo/dropzone": "^4.3.0",
+        "drupal/inline_entity_form": "^1.0@beta",
         "drupal/media_entity_actions": "^1.0@alpha"
     },
     "extra": {

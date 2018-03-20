@@ -1,7 +1,8 @@
-uuid: ff5463ce-fd3a-4029-87a0-e9875e2b2840
 langcode: nl
 status: true
 dependencies:
+  config:
+    - crop.type.2_1_crop
   module:
     - crop
 name: 2_1_700x350
@@ -20,3 +21,4 @@ effects:
     data:
       width: 700
       height: 350
+pipeline: __default__

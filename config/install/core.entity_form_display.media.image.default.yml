@@ -1,10 +1,9 @@
-uuid: d1a58f43-57c4-460d-954f-7506ee168860
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - media_entity.bundle.image
+    - media.type.image
   module:
     - image_widget_crop
 id: media.image.default
@@ -33,4 +32,5 @@ hidden:
   created: true
   name: true
   path: true
+  status: true
   uid: true

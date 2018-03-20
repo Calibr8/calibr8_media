@@ -1,5 +1,7 @@
 Calibr8 Media
 ----------
+Versie 5.0.x van calibr8 media module integreert Drupal 8 met media uit core, entity browser, en image widget crop.
+
 Versie 4.1.x van calibr8 media module integreert Drupal 8 met media entity, entity browser, en image widget crop.
 
 Versies 3.x en lager gebruikten de file entity module. Aangezien media entity naar core verhuist, wordt file entity deprecated.

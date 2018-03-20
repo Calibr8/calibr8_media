@@ -1,18 +1,15 @@
-uuid: 88668b5c-aefc-4f64-a52f-4b4377c6aa74
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_media_image
     - image.style.1_1_150x150
-    - media_entity.bundle.image
+    - media.type.image
   module:
     - entity_browser
     - image
-    - media_entity
+    - media
     - user
-_core:
-  default_config_hash: 1P-6OfAIFfXHPujozSQOAAAMvoWYtwRvT6_uzIDEgd0
 id: image_select
 label: 'Image select'
 module: views

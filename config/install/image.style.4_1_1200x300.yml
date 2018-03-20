@@ -1,7 +1,8 @@
-uuid: 77e69a91-d5e0-4433-a4dc-8233bd782837
 langcode: nl
 status: true
 dependencies:
+  config:
+    - crop.type.4_1_crop
   module:
     - crop
 name: 4_1_1200x300
@@ -20,3 +21,4 @@ effects:
     weight: -10
     data:
       crop_type: 4_1_crop
+pipeline: __default__
