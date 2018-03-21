@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+    - views.view.image_select
+  module:
+    - dropzonejs_eb_widget
+    - media
+    - views
+name: upload_or_existing
+label: 'Upload or Existing'
+display: modal
+display_configuration:
+  width: '800'
+  height: '600'
+  link_text: Select
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  b1fdcbce-6a37-43d7-aeba-a41ddbc1c599:
+    settings:
+      view: image_select
+      view_display: entity_browser_1
+      submit_text: Select
+      auto_select: false
+    uuid: b1fdcbce-6a37-43d7-aeba-a41ddbc1c599
+    weight: -10
+    label: 'Browse images'
+    id: view
+  e300fe21-017e-4655-b51a-6f2fc9ef0b02:
+    settings:
+      form_mode: default
+      media_type: image
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop images here to upload them'
+      max_filesize: 256M
+      extensions: 'jpg jpeg gif png'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: Select
+    uuid: e300fe21-017e-4655-b51a-6f2fc9ef0b02
+    weight: 3
+    label: Upload
+    id: dropzonejs_media_entity_inline_entity_form

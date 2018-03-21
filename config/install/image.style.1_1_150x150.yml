@@ -1,17 +1,17 @@
-langcode: nl
+langcode: en
 status: true
 dependencies:
   module:
     - focal_point
-name: 3_1_699x233
-label: '3:1 699x233'
+name: 1_1_150x150
+label: '1:1 150x150'
 effects:
-  dcf1e789-950e-44c5-b777-e9e013a35c5c:
-    uuid: dcf1e789-950e-44c5-b777-e9e013a35c5c
+  f7912792-fbe0-488a-9278-6af4be6df35e:
+    uuid: f7912792-fbe0-488a-9278-6af4be6df35e
     id: focal_point_scale_and_crop
     weight: 3
     data:
-      width: 699
-      height: 233
+      width: 150
+      height: 150
       crop_type: focal_point
 pipeline: __default__

@@ -2,20 +2,16 @@ langcode: nl
 status: true
 dependencies:
   module:
-    - crop
+    - focal_point
 name: 2_1_700x350
 label: '2:1 700x350'
 effects:
-  4b737fe5-dd4e-4a40-b1e8-9048c6cd7a8f:
-    uuid: 4b737fe5-dd4e-4a40-b1e8-9048c6cd7a8f
-    id: crop_crop
-    weight: 1
-    data:
-      crop_type: 2_1_crop
-  7a9d7c49-bda0-4c50-9137-7aba0feb7344:
-    uuid: 7a9d7c49-bda0-4c50-9137-7aba0feb7344
-    id: image_scale_and_crop
-    weight: 2
+  f27a1b7e-19da-45ba-86b1-b7048e24e3f7:
+    uuid: f27a1b7e-19da-45ba-86b1-b7048e24e3f7
+    id: focal_point_scale_and_crop
+    weight: 3
     data:
       width: 700
       height: 350
+      crop_type: focal_point
+pipeline: __default__

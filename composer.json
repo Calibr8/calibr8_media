@@ -3,7 +3,7 @@
     "description": "Default media feature for Drupal 8",
     "type": "drupal-feature",
     "keywords": ["Drupal 8","Media","Feature"],
-    "homepage": "https://github.com/Calibr8/calibr8_media",
+    "homepage": "https://github.com/stevenvdhout/calibr8_media",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -14,6 +14,25 @@
         }
     ],
     "require": {
-        "drupal/crop": "2.x"
+        "drupal/drupal-library-installer-plugin": "^0.3.0",
+        "drupal/entity_browser": "^2.0@alpha",
+        "drupal/field_formatter": "^1.0",
+        "drupal/focal_point": "^2.0",
+        "drupal/dropzonejs": "^2.0@alpha",
+        "enyo/dropzone": "^4.3.0",
+        "drupal/inline_entity_form": "^1.0@beta"
+    },
+    "extra": {
+        "patches": {
+            "drupal/field_formatter": {
+                "Fix field definition bug": "https://www.drupal.org/files/issues/2831921-7.patch"
+            }
+        },
+        "drupal-libraries": {
+          "library-directory": "web/libraries",
+          "libraries": [
+              {"name": "dropzone","package": "enyo/dropzone"}
+          ]
+        }
     }
 }

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: focal_point_thumbnail
+label: 'Focal point thumbnail'
+effects:
+  acb895f2-d4ee-42d3-afed-a70ebd18c30f:
+    uuid: acb895f2-d4ee-42d3-afed-a70ebd18c30f
+    id: image_scale
+    weight: 1
+    data:
+      width: 150
+      height: null
+      upscale: false
+pipeline: __default__
