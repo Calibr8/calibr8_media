@@ -17,7 +17,7 @@
         "drupal/drupal-library-installer-plugin": "^0.3.0",
         "drupal/entity_browser": "^2.0@alpha",
         "drupal/field_formatter": "^1.0",
-        "drupal/focal_point": "^2.0",
+        "drupal/focal_point": "^1.0@beta",
         "drupal/dropzonejs": "^2.0@alpha",
         "enyo/dropzone": "^4.3.0",
         "drupal/inline_entity_form": "^1.0@beta"
