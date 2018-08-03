@@ -23,11 +23,6 @@
         "drupal/inline_entity_form": "^1.0@beta"
     },
     "extra": {
-        "patches": {
-            "drupal/field_formatter": {
-                "Fix field definition bug": "https://www.drupal.org/files/issues/2831921-7.patch"
-            }
-        },
         "drupal-libraries": {
           "library-directory": "web/libraries",
           "libraries": [
